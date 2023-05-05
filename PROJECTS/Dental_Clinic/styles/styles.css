@@ -1,0 +1,563 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;    
+}
+
+.container-interior {
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family: 'Open Sans', sans-serif;
+         
+}
+
+.navigation-container {
+    max-width: 1920px;
+    height: 60px;
+    background-color: #0284C7;
+
+    
+}
+
+.content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.flex-navigation {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.Dento-Plus {
+    color: #fafafa;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 26px;
+
+}
+
+.block-navigation {
+    display: flex;
+    gap: 20px;
+}
+
+    
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fafafa;
+    padding-top: 20px;    
+}
+ 
+
+.image-dento {
+    background-image: url(../photo/hero.png);
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 80px;    
+}
+
+.header-hero {
+    max-width: 60%;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 130px;
+        
+}
+
+.colortext {
+    color: #0284C7;
+}
+
+.text-hero {
+    margin-top: 40px;
+    
+    font-size: 16px;
+    line-height: 18px;
+    color: #525252;     
+}
+
+.button {
+    background-color: #0ea5e9;
+    border: none;
+    padding: 10px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fafafa;
+    box-shadow: 1px 1px 4px #78716c;
+    margin-top: 40px;
+}
+
+.button:hover {
+    background-color: #0284c7;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #0284C7;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 50px;    
+}
+
+.servise {
+    background-color: #0284C7;
+    max-width: 1920px;
+    height: 280px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 20px solid;
+    border-bottom: 40px solid transparent;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid;
+    border-bottom: 40px solid transparent;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.flex-foto {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.image-servise {
+    border-radius: 15px;
+    max-width: 100%;          
+}
+
+
+.image {
+    position: relative;
+    display: flex;
+    height: 250px;
+    margin-top: 15px;    
+}
+
+.number {
+    position: absolute;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+}
+
+.text {
+    position: absolute;
+    top: 180px;
+    max-width: 60%;
+    margin-left: 15px;
+    color: #fafafa;
+    font-weight: 500;
+}
+
+.shadow {
+    background: linear-gradient(95deg, #0369a1, transparent);
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;        
+}
+
+.image-clinic {
+    background-image: url(../photo/background-1.png);
+    background-position: center top;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.text-clinic {
+    margin-top: 30px;
+    line-height: 22px;
+    text-align: justify;    
+}
+
+.button-details {
+    background-color: #0ea5e9;
+    border: none;
+    padding: 10px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fafaf9;
+    box-shadow: 1px 1px 4px #78716c;
+    margin-top: 50px;
+    float: right;    
+}
+
+.button-details:hover {
+    background-color: #0284c7;
+}
+
+.flex-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.box-name {
+    border: 1px solid #a3a3a3;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px;
+    padding: 10px 0;
+    flex-grow: 1;
+    flex-basis: 0;   
+}
+
+.client {
+    float: left;
+    margin: 10px;
+}
+
+.name {
+    color: #0284C7;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-reviews {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    padding-top: 20px;    
+}
+
+.image-adres {
+    background: linear-gradient(to right, transparent 0, rgba(240,249,255,0.8)0), url("../photo/map-background.png");
+    background-position: center top;
+    background-size: cover;
+    height: 500px;
+    margin-top: 100px;   
+}
+
+.flex-adres {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.adres-block {
+    flex-grow: 1;
+    flex-wrap: wrap;    
+    border-radius: 25px;
+    border: 1px #0284c7 solid;
+    background-color: #fafafa; 
+    flex-basis: 0;   
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 15px;   
+}
+
+.location {
+   width: 25px;
+   height: 30px;
+  
+}
+
+.circle-info {
+    margin-top: 10px;
+
+}
+
+.text-adres {   
+    flex-wrap: wrap;
+    color: #0284c7;
+    line-height: 22px;
+    margin-left: 15px;    
+}
+
+.title-adres {
+    margin-top: 30px;
+    color: #0284c7;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.time {
+    margin-left: 40px;
+}
+
+.phone {
+    color: #0284c7;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.contacts-container {
+    max-width: 1920px;
+    background-color: #f0f9ff;
+    padding-top: 50px;
+}
+
+
+
+.icon-futer {
+    margin: 5px;
+    object-fit: contain;
+}
+
+.info-futer {
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+     
+}
+
+
+.facebook-icon {    
+    color: #0284c7;
+    margin-top: 50px;
+           
+}
+
+.block-icon {
+    display: flex;
+}
+
+.text-facebook {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0284c7;
+}
+
+
+.flex-futer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.icon-futer-facebook {
+    margin: 10px;
+    object-fit: contain;
+    width: 25px;
+}
+
+.text-futer {
+    color: #0284c7;
+    width: 40%;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.flex-futer-adres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-futer {
+    color: #0284c7;
+    line-height: 20px;    
+}
+
+.adreses {
+    line-height: 20px;
+    color: #0284c7;
+        
+}
+
+.email {
+    color: #0284c7;
+}
+
+.license {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #0284c7;
+    padding-bottom: 50px;
+}
+
+
+@media (max-width: 600px) {
+        
+    .container-interior {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+
+    .content-container {
+        padding: 10px;
+    }
+
+    .Dento-Plus {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .block-navigation {
+        flex-wrap: wrap;
+    } 
+
+
+    .link {
+        font-size: 14px;    
+    }
+
+    .image-dento {
+        margin: 0 auto;     
+    }
+
+    .header-hero {
+        padding-top: 10px;
+        max-width: 50%;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .text-hero {
+        margin-top: 30px;
+        max-width: 80%;
+        font-size: 12px;
+        line-height: 12px;
+        color: #525252;     
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+
+    
+
+    .title {
+        padding-bottom: 30px;
+        color: #0284C7;
+        font-size: 24px;
+        font-weight: 700;            
+    }
+
+    .servise {
+        flex-direction: column;
+        max-width: 600px;
+        height: 850px;
+        
+    }
+
+    .flex-foto {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+
+    
+    
+    .image {
+        margin: 0 auto;
+        height: 220px;    
+    }
+
+    
+
+    .button-details {
+        margin-top: 20px;
+        
+    }
+    
+    .text-reviews {
+        padding: 5px;
+    }
+
+    .text-adres {
+        font-size: 17px;
+    }
+    
+    .location {
+        width: 20px;
+        height: 25px;   
+     }
+    
+     
+    .flex-futer-adres {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .text-facebook {
+        margin-top: 25px;
+    }
+
+    .image-adres {
+        margin-top: 20px;
+        height: 550px;
+    }
+
+    
+
+    .arrow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .triangle-left {
+        border: 30px solid transparent; border-bottom: 30px solid ;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .triangle-right {
+        border: 30px solid transparent; border-top: 30px solid;
+        margin-top: 20px;
+    }
+
+    .flex-reviews {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-adres {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-adres {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .image-clinic {
+        display: flex;
+        flex-direction: column;
+        height: 600px; 
+    }
+    
+}

@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;    
+}
+
+.container-interior {
+    max-width: auto;
+    font-family: 'Open Sans', sans-serif;     
+}
+
+.navigation-container {
+    max-width: 1920px;
+    height: 60px;
+    background-color: #0284C7;
+}
+
+.content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-navigation {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.Dento-Plus {
+    color: #fafafa;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.block-navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fafafa;
+    padding-top: 20px;    
+}
+
+.title {
+    text-align: center;
+    color: #0284C7;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #737373;
+    line-height: 24px;
+    max-width: 65%;
+    margin: 0 auto;
+    margin-bottom: 50px;    
+}
+
+input {
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 30px;
+    font-size: 22px;
+    border: 1px;
+    padding: 15px 40px 15px 44px;
+    display: flex;
+    background-image: url(neuter-solid\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px 15px;
+    background-color: #E0F2FE;   
+}
+
+input:focus {
+    outline-color: #0284C7;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.image {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 320px;
+    border-radius: 15px;    
+}
+
+.text-specialist {
+    margin-top: 10px;
+    text-align: center;
+    color: #404040;
+}
+
+.text-speciality {
+    margin-top: 10px;
+    text-align: center;
+    color: #404040;
+    font-weight: 700;
+}
+
+.frame {
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 10px;
+    border: 1px solid #0284C7;
+    border-radius: 10px;
+}
+
+.frame:hover {
+    background-color: #f5f5f5;
+}
+
+.text-frame {
+    text-align: center;
+    font-weight: 700;
+    color: #0284C7;
+    padding: 15px;
+}   
+ 
+
+.contacts-container {
+    max-width: 1920px;
+    background-color: #f0f9ff;
+    padding-top: 50px;
+}
+
+
+
+.icon-futer {
+    margin: 5px;
+    object-fit: contain;
+}
+
+.info-futer {
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+     
+}
+
+
+.facebook-icon {    
+    color: #0284c7;
+    margin-top: 50px;
+           
+}
+
+.block-icon {
+    display: flex;
+}
+
+.text-facebook {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0284c7;
+}
+
+
+.flex-futer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.icon-futer-facebook {
+    margin: 10px;
+    object-fit: contain;
+    width: 25px;
+}
+
+.text-futer {
+    color: #0284c7;
+    width: 40%;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.flex-futer-adres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-futer {
+    color: #0284c7;
+    line-height: 20px;    
+}
+
+.adreses {
+    line-height: 20px;
+    color: #0284c7;
+        
+}
+
+.email {
+    color: #0284c7;
+}
+
+.license {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #0284c7;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .container-interior {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto;
+        overflow-x: hidden;        
+    }
+
+
+    .content-container {
+        padding: 10px;
+    }
+
+    .Dento-Plus {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .link {
+        font-size: 14px;    
+    }
+
+    .title {
+        padding-bottom: 30px;
+        color: #0284C7;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 4%;           
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-facebook {
+        margin-top: 25px;
+    }
+
+    .flex-futer-adres {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+
+}

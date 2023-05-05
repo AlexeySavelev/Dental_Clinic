@@ -1,0 +1,581 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-external {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.image-container {
+    background-image: url("hero.jpg");
+    background-position: center top;
+    background-size: cover;
+    height: 800px;
+}
+
+.content-hero {
+    max-width: 1024px;
+    margin: 0 auto;       
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+.block-navigation {
+    display: flex;    
+}
+
+.box-navigation {
+    margin-top: 50px;
+    margin-left: 20px;
+
+    
+}
+
+.phone {
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1c1917;
+}
+
+.link:hover {
+    color:#f97316;
+}
+
+.link:active {
+    color:#fafaf9;
+}
+
+.header-hero {
+    max-width: 50%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    
+}
+
+.text-hero {
+    max-width: 40%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 22px;
+    color: #44403c;
+}
+
+.button {
+    background-color: #f97316;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fafaf9;
+    box-shadow: 1px 1px 4px #78716c;
+}
+
+.button:hover {
+    background-color: #ea580c;
+}
+    
+.school-info {
+    max-width: auto;          
+}
+
+.content-info {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.title-info {    
+    font-size: 40px;    
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex-info {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.block-icon {
+    border-radius: 10px;
+    width: 320px;
+    height: 230px;
+    background-color: #fafaf9;
+    margin-top: 50px;
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.frame-icon {    
+    background-color: #f97316;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.title-icon {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.text-icon {
+    font-size: 16px;
+    line-height: 22px;
+    color: #4f4d4c;
+}
+
+.icon {
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+.group-info { 
+    display: flex;     
+    margin-top: 50px;            
+}
+
+
+.h3-info {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.h3-title {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.text-info {
+    max-width: 100%;
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 22px;
+    color: #44403c;    
+}
+
+.image-group {
+    width: 500px;
+}
+
+
+
+
+
+.record-container {
+    background-color: #fed7aa;
+    max-width: auto;
+}
+
+.record-content {
+    max-width: 1024px;
+    margin: 0 auto;   
+}
+
+.record-title {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.record-text {
+    padding-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    color: #44403c;    
+}
+
+.record-form {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.form {
+    border: 1px solid #4f4d4c;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+input:focus {
+    color: #fafaf9;
+    outline-color: #fafaf9;
+    background-color: #f97316;
+}
+
+
+.reviews-container {
+    background-color: #fafaf9;
+}
+
+.reviews-content {
+    max-width: 1024;
+    margin: 0 auto;
+}
+
+.reviews-title {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+.review {
+    width: 600px;
+    padding: 30px 0;
+    border-bottom: 1px solid #d6d3d1;
+}
+
+.review-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    line-height: 20px;
+    font-weight: 300;
+    color: #44403c;   
+}
+
+
+
+.subscriptions-container {
+    max-width: auto;
+
+}
+
+.subscriptions-content {
+    max-width: 1024px;
+    margin: 0 auto;
+
+    
+}
+
+.subscriptions-title {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.subscriptions-flex {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.subscription-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #44403c;
+    border-radius: 8px;
+    flex-grow: 1;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+
+    
+}
+
+.subscription-title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #f97316;
+}
+
+.subscription-price {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.box {
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+.box-text {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 0;
+    color: #78716c;
+}
+
+.fa-check {
+    width: 20px;
+    height: 20px;    
+    margin-right: 5px;
+    color: #65A30D;
+}
+
+.subscription-button {
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffedd5;
+    color: #ea580c;
+    width: 100%;
+}
+
+.subscription-button:hover {
+    background-color: #ed7d40;
+    color: #fafaf9;
+}
+
+
+
+.contacts-container {
+    background-color: #fafaf9;
+}
+
+.contacts-content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.flex-container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;    
+}
+
+.block-contacts {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    color: #78716c;
+}
+
+.icon-contact {    
+    text-decoration: none;
+    font-size: 24px;
+    color: #78716c;
+    margin-left: 10px;   
+}
+
+.icon-contact:hover {
+    color: #ea580c;
+}
+
+
+
+.contact {
+    margin-top: 50px;
+    color: #78716c;
+}
+
+.contact:hover {
+    color: #ea580c;
+}
+
+html {
+    --primary-color: #f97316;
+    --variable-color: #ffedd5;
+    --replacement-color: #fafaf9;
+}
+
+.button {
+    background-color: var(--primary-color);
+}
+
+.frame-icon {
+    background-color: var(--primary-color);
+}
+
+.subscription-title {
+    color: var(--primary-color);
+}
+
+.subscription-button {
+    background-color: var(--variable-color);
+}
+
+
+.contacts-container {
+    background-color: var(--replacement-color);
+}
+
+.reviews-container {
+    background-color: var(--replacement-color);
+}
+
+.block-icon {
+    background-color: var(--replacement-color);
+}
+
+@media (max-width: 600px) {
+    .container-external {       
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .header-hero {
+        font-size: 40px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    
+
+    .flex-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 90%;    
+    }
+
+    
+
+    .group-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+        width: 90%;
+        margin: 0 auto;        
+    }
+
+    .text-info {
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    
+    .record-form {        
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;        
+    }
+
+    
+    .form {
+        width: 100%;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;                      
+        margin: 0 auto;
+
+    }
+
+    .review-name {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .review-text {
+        margin: 0 auto;
+        text-align: left;
+        flex-wrap: wrap;
+        max-width: 90%;
+                
+    }
+
+    .block-icon { 
+        width: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    
+
+    .subscriptions-flex {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+           
+    }
+
+    .subscription-block {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    .flex-container-icon {
+        display: flex;
+        flex-direction: column;
+        
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

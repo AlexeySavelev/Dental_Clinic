@@ -1,0 +1,458 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;    
+}
+
+.container-interior {
+    max-width: auto;
+    font-family: 'Open Sans', sans-serif;     
+}
+
+.navigation-container {
+    max-width: 1920px;
+    height: 60px;
+    background-color: #0284C7;
+}
+
+.content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.flex-navigation {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.Dento-Plus {
+    color: #fafafa;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.block-navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fafafa;
+    padding-top: 20px;    
+}
+
+.image-dento {
+    background-image: url("../photo/hero.png");
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 80px;    
+}
+
+.header-hero {
+    max-width: 60%;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 130px;   
+}
+
+.colortext {
+    color: #0284C7;
+}
+
+.text-hero {
+    margin-top: 40px;
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #525252;     
+}
+
+.button {
+    background-color: #0ea5e9;
+    border: none;
+    padding: 10px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fafafa;
+    box-shadow: 1px 1px 4px #78716c;
+    margin-top: 40px;
+}
+
+.button:hover {
+    background-color: #0284c7;
+}
+
+
+.treatment {
+    max-width: 1920px;
+    margin-bottom: 150px;
+}
+
+.title {
+    color: #0284C7;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.text-block {
+    color: #0284C7;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 24px;
+    
+}
+
+.patient {
+    width: 480px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.text-treatment {
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+.services {
+    text-align: center;
+    color: #0284C7;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}   
+
+.description {
+    margin-bottom: 150px;
+}
+    
+    
+.frame {
+    margin-bottom: 10px;    
+    border-radius: 30px;
+    flex-grow: 1;
+    background: #F0F9FF;   
+}
+
+.frame2 {
+    margin-bottom: 10px;    
+    border-radius: 30px;
+    flex-grow: 1;
+    background: #E0F2FE;   
+}
+
+.text-frame {
+    size: 20px;
+    font-weight: 700;
+    padding: 20px 0 20px 30px;
+    color: #0284C7;
+}
+
+.colortext-frame {
+    color: #0ea5e9;
+}
+
+.colortext-frame2 {
+    color: #26992A;
+}
+
+
+
+.servise {
+    background-color: #0284C7;
+    max-width: 1920px;
+    height: 280px;
+
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 20px solid;
+    border-bottom: 40px solid transparent;
+    color: #fafafa;
+    margin-top: 30px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid;
+    border-bottom: 40px solid transparent;
+    color: #fafafa;
+    margin-top: 30px;
+}
+
+
+.flex-foto {
+    display: flex;
+    gap: 50px;
+    justify-content: center;    
+}
+
+
+.image-servise {
+    border-radius: 15px;
+    max-width: 100%;    
+}
+
+
+.image {
+    position: relative;
+    display: flex;
+    height: 250px;
+    margin-top: 15px;
+}
+
+.number {
+    position: absolute;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+}
+
+.text-servis {
+    position: absolute;
+    top: 180px;
+    max-width: 60%;
+    margin-left: 15px;
+    color: #fafafa;
+    font-weight: 500;
+}
+
+.shadow {
+    background: linear-gradient(95deg, #0369a1, transparent);
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;     
+}
+
+
+
+.contacts-container {
+    max-width: 1920px;
+    background-color: #f0f9ff;
+    padding-top: 50px;
+}
+
+
+
+.icon-futer {
+    margin: 5px;
+    object-fit: contain;
+}
+
+.info-futer {
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+     
+}
+
+
+.facebook-icon {    
+    color: #0284c7;
+    margin-top: 50px;
+           
+}
+
+.block-icon {
+    display: flex;
+}
+
+.text-facebook {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0284c7;
+}
+
+
+.flex-futer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.icon-futer-facebook {
+    margin: 10px;
+    object-fit: contain;
+    width: 25px;
+}
+
+.text-futer {
+    color: #0284c7;
+    width: 40%;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.flex-futer-adres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-futer {
+    color: #0284c7;
+    line-height: 20px;    
+}
+
+.adreses {
+    line-height: 20px;
+    color: #0284c7;
+        
+}
+
+.email {
+    color: #0284c7;
+}
+
+.license {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #0284c7;
+    padding-bottom: 50px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .container-interior {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto;
+        overflow-x: hidden;        
+    }
+
+
+    .content-container {
+        padding: 10px;
+    }
+
+    .Dento-Plus {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .link {
+        font-size: 14px;    
+    }
+
+    .image-dento {
+        margin: 0 auto;     
+    }
+
+    .header-hero {
+        padding-top: 10px;
+        max-width: 50%;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .text-hero {
+        margin-top: 30px;
+        max-width: 80%;
+        font-size: 12px;
+        line-height: 12px;
+        color: #525252;     
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+
+    .title {
+        padding-bottom: 30px;
+        color: #0284C7;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 4%;           
+    }
+
+
+    .text-treatment {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .services {
+        font-size: 24px;
+    }
+
+    .servise {
+        flex-direction: column;
+        max-width: 600px;
+        height: 850px;
+    }
+
+    .flex-foto {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .image {
+        margin: 0 auto;
+        height: 220px;        
+    }
+
+    .text-facebook {
+        margin-top: 25px;
+    }
+
+    .flex-futer-adres {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .arrow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .triangle-left {
+        border: 30px solid transparent; border-bottom: 30px solid ;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .triangle-right {
+        border: 30px solid transparent; border-top: 30px solid;
+        margin-top: 20px;
+    }
+
+    .text-servis {
+        top: 150px;
+    }
+
+}

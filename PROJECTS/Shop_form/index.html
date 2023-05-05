@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Shop_form</title>
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />        
+        <script src="https://kit.fontawesome.com/cd53a278a4.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">   
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+        <link href="https://fonts.googleapis.com/css2? family=Nunito+Sans:wght@300;400;600 & display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="external-container">
+
+            <div class="content-container">
+                <img src="mountains-1.jpg" alt="" class="image" />
+                <div class="shadow"></div>
+
+                <div class="interior-container">
+
+                    <div class="registration-block">
+
+                        <div class="header">
+                           <h1 class="registration">Регистрация</h1>
+                        </div>
+
+                        <form action="https://www.bit-by-bit.ru/form-submit">
+
+                        <div class="block-field">
+
+                            <div class="field">
+                                <div class="text"><label for="firstName">Имя</label></div>
+                                <input class="form" type="text" id="firstName" name="firstName" />
+                            </div>
+                     
+                            <div class="field">
+                                <div class="text"><label for="lastName">Фамилия</label></div>
+                                <input class="form" type="text" id="lastName" name="lastName" />
+                            </div>
+
+                        </div>
+                        
+                        <div class="block-field">
+
+                            <div class="field">
+                                <div class="text"><label for="email">Email</label></div>
+                                <input class="form" type="text" id="email" name="email" />
+                            </div>
+
+                            <div class="field">
+                                <div class="text"><label for="telephone">Телефон</label></div>
+                                <input class="form" type="text" id="telephone" name="telephone" />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                                                 <!--Блок 2-->
+
+                    <div class="lines"></div>                    
+                    <div class="deliver-block">
+
+                        <div class="header">
+                            <h1 class="title">Адрес доставки</h1>
+                        </div>
+
+                        <div class="block-field">
+
+                            <div class="field">
+                                <div class="text"><label for="country">Страна</label>
+                                <select autocomplete="country-name" class="form" type="text" id="country" name="country">
+                                 <option value="Россия">Россия</option>
+                                 <option value="Беларусь">Беларусь</option>
+                                 <option value="Казахстан">Казахстан</option>
+                                 <option value="Польша">Польша</option>
+                                </select>
+                                </div>                           
+                            </div>
+
+                            <div class="field">
+                                <div class="text"><label for="city">Город</label></div>
+                                <input class="form" type="text" id="city" name="city" />
+                            </div>
+
+                            <div class="field">
+                                <div class="text"><label for="postcode">Почтовый индекс</label></div>
+                                <input class="form" type="text" id="postcode" name="postcode" />
+                            </div>
+
+                        </div>
+                        
+                        <div class="block-field">
+
+                            <div class="field">
+                                <div class="text"><label for="adres">Адрес доставки (улица, дом, квартира)</label></div>
+                                <input class="form" type="text" id="adres" name="adres" />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                                                     <!--Блок 3-->
+                                                     
+                    <div class="lines"></div>                                 
+                    <div class="notifications-block">
+
+                        <div class="header">
+                            <h1 class="title">Уведомлять об акциях и скидках</h1>
+                            <p class="text-notifications">Мы не будем отправлять спам, но напишем, когда поступят
+                             новые товары или будет большая распродажа.</p>
+                        </div>
+
+                        <div class="block-check">
+
+                            <div class="check">
+                                <input type="checkbox" class="checkbox" name="notifications" id="email-option" value="email" />
+                                <label for="email-option">По Email</label>
+                            </div>
+
+                            <div class="check">
+                                <input type="checkbox" class="checkbox" name="notifications" id="sms-option" value="sms" />
+                                <label for="sms-option">По SMS</label>
+                            </div>
+
+                            <div class="check">
+                                <input type="checkbox" class="checkbox" name="notifications" id="Push-option" value="Push" />
+                                <label for="Push-option">Push-уведомления в приложении</label>
+                            </div>
+
+                        </div>
+
+                    </div>
+                                                       <!--Кнопка-->
+
+                    <div class="lines"></div>
+                    <button class="button" type="submit">Создать аккаунт</button>
+                </form>
+                
+                </div>                
+            </div>
+        </div>
+    </body>
+</html>
+
+
+    
